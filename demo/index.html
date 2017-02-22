@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="sampleApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../node_modules/angular-material/angular-material.css">
+    <link rel="stylesheet" href="../src/style.css">
+  </head>
+  <body>
+    <md-toolbar class="md-hue-2">
+      <div class="md-toolbar-tools">
+        <!-- <md-button class="md-icon-button" aria-label="Settings" ng-disabled="true">
+          <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+        </md-button> -->
+
+        <h2 flex md-truncate>Toolbar with Disabled/Enabled Icon Buttons</h2>
+
+        <!-- <md-button class="md-icon-button" aria-label="Favorite">
+          <md-icon md-svg-icon="img/icons/favorite.svg" style="color: greenyellow;"></md-icon>
+        </md-button>
+
+        <md-button class="md-icon-button" aria-label="More">
+          <md-icon md-svg-icon="img/icons/more_vert.svg"></md-icon>
+        </md-button> -->
+      </div>
+    </md-toolbar>
+
+    <jenkins-pipeline-graph></jenkins-pipeline-graph>
+  </body>
+  <script src="../node_modules/angular/angular.js" charset="utf-8"></script>
+  <script src="../node_modules/angular-animate/angular-animate.js" charset="utf-8"></script>
+  <script src="../node_modules/angular-aria/angular-aria.js" charset="utf-8"></script>
+  <script src="../node_modules/angular-material/angular-material.js" charset="utf-8"></script>
+
+
+  <script src="../src/jenkins-pipeline-graph.js" charset="utf-8"></script>
+  <script src="sampleApp.js" charset="utf-8"></script>
+</html>
